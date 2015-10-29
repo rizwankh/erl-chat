@@ -2,7 +2,7 @@
 
 -compile(export_all).
 
-%testing git revert
+
 
 start_router() ->
 	message_router:start().
