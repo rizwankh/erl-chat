@@ -5,7 +5,7 @@
 
 
 start_router() ->
-	message_router:start().
+	message_router:start_link().
 
 stop_router() ->
 	message_router:stop().
